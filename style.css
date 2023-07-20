@@ -43,7 +43,8 @@ nav{
 
 .logo-container img{
     object-fit:cover;
-    margin-right: 20px;
+    margin-left:20px;
+    margin-right: 10px;
 }
 
 
@@ -233,7 +234,7 @@ nav{
       left: 50%;
       transform: translate(-50%, -50%);
       opacity: 0; 
-      transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.4s ease-in-out;
     }
 
     #container3:hover .overlay {
@@ -242,14 +243,14 @@ nav{
 
     .play-button {
       display: block;
-      width: 80px;
-      height: 80px;
+      width: 90px;
+      height: 90px;
       background-color: rgba(0, 0, 0, 0.6);
       border-radius: 50%;
       text-align: center;
-      line-height: 80px;
+      line-height: 85px;
       color: #FFF;
-      font-size: 24px;
+      font-size: 30px;
       cursor: pointer;
     }
 
@@ -258,7 +259,7 @@ nav{
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 16px;
+      font-size: 20px;
       color: #fff;
       opacity: 0;
       transition: opacity 0.3s ease;
@@ -465,9 +466,14 @@ justify-content: center;
 .nav-items-container .login-btn{
 
     width: 100%;
-  
    margin-bottom: 20px;
 }
+.logo-container img{
+    object-fit:cover;
+    margin-left:35px;
+    margin-right: 5px;
+}
+
 
 
 /* banner responsive */
@@ -545,7 +551,8 @@ justify-content: center;
     flex-direction:column;
  }
   .titie1{
-    font-size: 14px ;
+    font-size: 11px ;
+    text-align: center;
  }
  
 
