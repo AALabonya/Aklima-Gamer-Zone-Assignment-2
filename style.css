@@ -23,6 +23,7 @@ nav{
 .nav-container{
     min-height: 50px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -58,19 +59,21 @@ nav{
    
 }
 
-.nav-items-container{
-    width: 50%;
+
+div > ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-}
-.nav-items-container a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #3C354F;
+    gap:50px;
+    list-style: none;
     font-weight: 600;
-    margin-top: 10px;
-    
+    color: #3C354F;
+    font-size: 1.125;
+}
+.nav-items-container li a{
+    text-decoration: none;
+    color: #0B0223;
+    cursor: pointer;
 }
 .nav-items-container button{
    display: flex;
@@ -82,16 +85,12 @@ nav{
 
 
 }
-.fa-brands{
-    padding: 5px;
-    
-}
 .btn-primary{
+   display: flex;
+   align-items: center;
+   gap: 15px;
     border-radius: 5px;
-    margin-top: 15px;
-    padding: 5px 10px;
-    font-size: 18px;
-    font-weight: 600;
+    padding: 10px 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -284,6 +283,60 @@ nav{
 }
 
 /*end  style Play Instantly No Downloads No Installs */
+
+/* start style all games zone  */
+
+.all-games-container{
+    max-width: 100%;
+    margin:80px auto;
+    background-image: linear-gradient(rgba(197, 143, 172, 0.03) 0%, rgba(235, 174, 204, 0.03) 100%);
+}
+
+.all-games-content{
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    
+}
+
+.all-games{
+    max-width:50%;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 45px;
+    gap: 5px;
+    background: white;
+    color: black;
+   
+}
+
+.games-title{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.all-games:hover{
+    border: 2px solid darkred;
+    color: darkred;
+
+}
+
+
+
+
+
+
+ /* end style all games zone  */
+
+
+
+
+
 
 
 
@@ -478,6 +531,22 @@ font-size: 16px;
      left: -25px ;
  
  }
+
+/* responsive all games zone */
+  .all-games{
+    max-width:25%;
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+    gap: 5px;
+    background: #f8ebeb;
+    padding: 10px 5px;
+   
+}
+.games-title-1{
+    font-size:10px;
+}
+
  /* responsive  footer-section  */
 /* style footer-section  */
 .footer-section{
@@ -502,10 +571,6 @@ div >ul {
 
 }
 
-/* div li{
-    padding: 30px;
-    
-} */
 
 .items{
     padding: 30px;
@@ -532,7 +597,7 @@ span .play{
 
 
 
-    /* medium screen or tab device responsive */
+ /* medium screen or tab device responsive */
 
 @media screen and (min-width:576px) and (max-width:992px){
     .nav-container{
