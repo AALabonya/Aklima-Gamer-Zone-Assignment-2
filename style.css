@@ -375,6 +375,14 @@ nav{
      gap: 20px;
 }
 
+.social-media-list img{
+    width: 40px;
+    height: 32px;
+}
+
+
+
+
 .play{
     font-size: 12px;
     padding-bottom: 30px;
