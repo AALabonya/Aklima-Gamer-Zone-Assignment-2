@@ -470,8 +470,8 @@ justify-content: center;
 }
 .logo-container img{
     object-fit:cover;
-    margin-left:35px;
-    margin-right: 5px;
+    margin-left:20px;
+    margin-right:5px;
 }
 
 
@@ -617,6 +617,13 @@ justify-content: center;
   
 }
 
+.all-games:hover{
+    border: 2px solid darkred;
+    color: darkred;
+
+}
+
+
  /* responsive  footer-section  */
 
  .footer-container{
@@ -624,6 +631,7 @@ justify-content: center;
     text-align: center;
     padding: 20px;
     align-items: center;
+
  }
 
 .story, ul{
