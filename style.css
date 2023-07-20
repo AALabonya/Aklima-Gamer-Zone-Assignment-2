@@ -179,10 +179,8 @@ nav{
 /* end banner section */
 
 
-
- /* style Online Games Funny Videos */
-
- .online-games-section{
+/* style Online Games Funny Videos */
+.online-games-section{
     margin: 50px auto 0;
     max-width: 1200px;
  }
@@ -194,7 +192,7 @@ nav{
     
 
  }
- .games-title7{
+ .games-title{
     background-image: linear-gradient(180deg, #eb30a0 0%, #7747e9 100%);
     color: transparent;
     -webkit-background-clip: text;
@@ -224,9 +222,53 @@ nav{
     font-size:10px ;
  }
 
+    #container3 {
+      position: relative;
+      display: inline-block;
+    }
 
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0; 
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    #container3:hover .overlay {
+      opacity: 1;
+    }
+
+    .play-button {
+      display: block;
+      width: 80px;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 80px;
+      color: #FFF;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+  #container3:hover .text{
+      opacity: 1; 
+     
+    }
 /*end  style Online Games Funny Videos */
-
 
 /* style start Play Instantly No Downloads No Installs */
 
