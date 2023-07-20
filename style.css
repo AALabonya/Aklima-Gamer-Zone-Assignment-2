@@ -244,7 +244,7 @@ nav{
     .play-button {
       display: block;
       width: 90px;
-      height: 90px;
+      height:90px;
       background-color: rgba(0, 0, 0, 0.6);
       border-radius: 50%;
       text-align: center;
@@ -256,11 +256,13 @@ nav{
 
     .text {
       position: absolute;
-      top: 50%;
+      top: 120%;
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 20px;
-      color: #fff;
+      color: #6b0000;
+      font-weight: 800;
+      width:120px;
       opacity: 0;
       transition: opacity 0.3s ease;
     }
@@ -394,6 +396,13 @@ nav{
     align-items: center;
 
 }
+
+ .footer-title img{
+    object-fit:cover;
+    margin-left:22px;
+}
+
+
 
 .story, ul{
     display: flex;
@@ -706,10 +715,8 @@ flex-wrap: wrap;
  }
  
  .banner-text, .banner-img{
+       width: 100%;
      
-     width: 100%;
-     
- 
  }
  
  .banner-text h2{
@@ -847,8 +854,6 @@ width: 30px;
 height: 30px;
 
    }   
-
-
 
  .footer-title{
       gap: 5px;
