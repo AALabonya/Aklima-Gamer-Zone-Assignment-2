@@ -317,12 +317,13 @@ nav{
     gap: 5px;
     background: white;
     color: black;
+    border: 3px solid transparent;
    
 }
 
 .games-title-1{
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .all-games:hover{
@@ -540,12 +541,16 @@ font-size: 16px;
     align-items: center;
     border-radius: 45px;
     gap: 5px;
-    background: #f8ebeb;
-    padding: 10px 5px;
-   
+
+} 
+
+.all-games img{
+    width: 30%;
 }
+
 .games-title-1{
-    font-size:10px;
+    font-size: 0.6rem;
+  
 }
 
  /* responsive  footer-section  */
@@ -706,7 +711,6 @@ font-size: 16px;
     align-items: center;
     border-radius: 45px;
     gap: 5px;
-    background: #f8ebeb;
     padding: 10px 5px;
    
 }
